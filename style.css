@@ -25,3 +25,33 @@
   img{
     border-radius: 30px 150px;
   }
+  #pfp{
+    float: left;
+    padding: 10px;
+    background-color: #480ca8;
+  }
+  .img-container{
+    height: 550px;
+  }
+  .descricao {
+    float: left;
+    position: absolute;
+    top: 280px;
+    right: 200px;
+  }
+  .name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+  .itens{
+    float: left;
+    position:absolute;
+    top: 370px;
+    right: 300px;
+    list-style-type: none;
+  }
+  .hab li:nth-child(odd){
+    background-color: #4cc9f0;
+    padding: 1px;
+    border-radius: 5px;
+  }
